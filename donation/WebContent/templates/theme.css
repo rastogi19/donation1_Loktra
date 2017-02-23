@@ -19,16 +19,18 @@ body{
 		    position: relative;
 		}
 		.input-symbol-euro input {
-		    padding-left:18px;
+		    padding-left:30px;
+			height: 40px;
 		}
 		.input-symbol-euro:before {
-		    position: absolute;
-		    bottom: 0px;
-		    content:"$";
-		    left: 10px;
-		    padding: 0;
-		    font-size: 26px;
-		}
+			position: absolute;
+    		bottom: 0px;
+    		content: "$";
+    		left: 10px;
+    		padding: 0;
+    		font-size: 22px;
+    		top: -5px;
+	}
 		.bubble {
 		    position: relative;
 		    width: 100%;
